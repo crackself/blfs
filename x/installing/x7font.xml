@@ -98,7 +98,6 @@
 
     <bridgehead renderas="sect4">Required</bridgehead>
     <para role="required">
-      <xref linkend="xcursor-themes"/>
     </para>
 
     <para condition="html" role="usernotes">User Notes:
@@ -115,15 +114,7 @@
     </para>
 
 <screen><userinput>cat &gt; font-&xorg-version;.md5 &lt;&lt; "EOF"
-<literal>&font-util-md5sum;  font-util-&font-util-version;.tar.xz
-&encodings-md5sum;  encodings-&encodings-version;.tar.xz
-&font-alias-md5sum;  font-alias-&font-alias-version;.tar.bz2
-&font-adobe-utopia-type1-md5sum;  font-adobe-utopia-type1-&font-adobe-utopia-type1-version;.tar.bz2
-&font-bh-ttf-md5sum;  font-bh-ttf-&font-bh-ttf-version;.tar.bz2
-&font-bh-type1-md5sum;  font-bh-type1-&font-bh-type1-version;.tar.bz2
-&font-ibm-type1-md5sum;  font-ibm-type1-&font-ibm-type1-version;.tar.bz2
-&font-misc-ethiopic-md5sum;  font-misc-ethiopic-&font-misc-ethiopic-version;.tar.bz2
-&font-xfree86-type1-md5sum;  font-xfree86-type1-&font-xfree86-type1-version;.tar.bz2</literal>
+<literal>&font-util-md5sum;  font-util-&font-util-version;.tar.xz</literal>
 EOF</userinput></screen>
 
     <para>
