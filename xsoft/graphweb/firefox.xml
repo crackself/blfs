@@ -143,11 +143,7 @@ tar: Exiting with failure status due to previous errors
       <xref linkend="libnotify"/>,
       <xref linkend="llvm"/> (with clang, used for bindgen even if using gcc),
       <xref linkend="nodejs"/>,
-      <xref linkend="pulseaudio"/>
-      (or
-      <xref linkend="alsa-lib"/> if you edit the mozconfig;
-        now deprecated by mozilla), in either case please read the
-        Configuration Information,
+      <xref linkend="alsa-lib"/>,
       <xref linkend="python3"/> (rebuilt after installing <xref linkend="sqlite"/>),
       <xref linkend="startup-notification"/>,
       <xref linkend="unzip"/>,
@@ -158,6 +154,7 @@ tar: Exiting with failure status due to previous errors
     <bridgehead renderas="sect4">Recommended</bridgehead>
     <para role="recommended">
       <xref linkend="icu"/>,
+      <xref linkend="ffmpeg"/>,
       <xref linkend="libevent"/>,
       <xref linkend="libvpx"/>,
       <xref linkend="libwebp"/>,
@@ -176,6 +173,7 @@ tar: Exiting with failure status due to previous errors
     <bridgehead renderas="sect4">Optional</bridgehead>
     <para role="optional">
       <xref linkend="curl"/>,
+      <xref linkend="pulseaudio"/>,
       <xref linkend="doxygen"/>,
       <xref role="runtime" linkend="ffmpeg"/> (runtime, to play mov, mp3 or mp4 files),
       <xref linkend="liboauth"/>,
@@ -223,7 +221,7 @@ ac_add_options --disable-necko-wifi
 
 # Uncomment the following option if you have not installed PulseAudio and
 # want to use alsa instead
-#ac_add_options --enable-audio-backends=alsa
+ac_add_options --enable-audio-backends=alsa
 
 # Comment out following options if you have not installed
 # recommended dependencies:
@@ -259,7 +257,7 @@ ac_add_options --disable-debug-symbols
 # The elf-hack is reported to cause failed installs (after successful builds)
 # on some machines. It is supposed to improve startup time and it shrinks
 # libxul.so by a few MB - comment this if you know your machine is not affected.
-ac_add_options --disable-elf-hack
+#ac_add_options --disable-elf-hack
 
 # The BLFS editors recommend not changing anything below this line:
 ac_add_options --prefix=/usr
