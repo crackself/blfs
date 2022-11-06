@@ -349,6 +349,16 @@ fi
 # Set some defaults before other applications add to these paths.
 pathappend /usr/share/man  MANPATH
 pathappend /usr/share/info INFOPATH</literal>
+
+# Set custom CFLAGS
+export CFLAGS="-march=native -O3 -pipe -fPIC"
+export CXXFLAGS=$CFLAGS
+export LDFLAGS=$CFLAGS
+export OTHER_CFLAGS=$CFLAGS
+export OTHER_CXXFLAGS=$CXXFLAGS
+export OTHER_LDFLAGS=$LDFLAGS
+export MAKEFLAGS='-j4'
+export NINJAJOBS=4
 EOF</userinput></screen>
 
     </sect3>
@@ -444,7 +454,11 @@ EOF</userinput></screen>
 
 <screen role="root" revision="sysv"><userinput>cat &gt; /etc/profile.d/i18n.sh &lt;&lt; "EOF"
 <literal># Set up i18n variables
-export LANG=<replaceable>&lt;ll&gt;</replaceable>_<replaceable>&lt;CC&gt;</replaceable>.<replaceable>&lt;charmap&gt;</replaceable><replaceable>&lt;@modifiers&gt;</replaceable></literal>
+#export LANG=<replaceable>&lt;ll&gt;</replaceable>_<replaceable>&lt;CC&gt;</replaceable>.<replaceable>&lt;charmap&gt;</replaceable><replaceable>&lt;@modifiers&gt;</replaceable></literal>
+# Set input method
+#export XMODIFIERS=@im=fcitx
+#export GTK_IM_MODULE=fcitx
+#export QT_IM_MODULE=fcitx
 EOF</userinput></screen>
 
 <screen role="root" revision="systemd"><userinput>cat &gt; /etc/profile.d/i18n.sh &lt;&lt; "EOF"
