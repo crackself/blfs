@@ -75,7 +75,7 @@
     <bridgehead renderas="sect4">Required</bridgehead>
     <para role="required">
       <xref linkend="libatasmart"/>,
-<!--      <xref linkend="libblockdev"/>,	-->
+      <xref linkend="libblockdev"/>,
       <xref linkend="libgudev"/>,
       <xref linkend="libxslt"/>, and
       <xref linkend="polkit"/>
