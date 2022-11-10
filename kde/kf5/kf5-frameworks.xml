@@ -86,8 +86,8 @@
     <xref linkend="libxslt"/>,
     <xref linkend="lmdb"/>,
     <xref linkend="qca"/>,
-    <xref linkend="qrencode"/>,
-    <xref linkend="phonon"/>,
+<!--    <xref linkend="qrencode"/>,	-->
+<!--    <xref linkend="phonon"/>,	-->
     <xref linkend="plasma-wayland-protocols"/>,
     <xref linkend="shared-mime-info"/>,
     <xref linkend="perl-uri"/>, and
@@ -96,8 +96,8 @@
 
   <bridgehead renderas="sect4">Recommended</bridgehead>
   <para role="recommended">
-    <xref linkend="aspell"/> (Dictionary backend for Sonnet),
-    <xref linkend="avahi"/> (DNS-SD backend for KDNSSD),
+<!--    <xref linkend="aspell"/> (Dictionary backend for Sonnet),	-->
+<!--    <xref linkend="avahi"/> (DNS-SD backend for KDNSSD),	-->
     <xref linkend="libdbusmenu-qt"/> (built with qt5),
     <xref linkend="NetworkManager"/> (needed to build NetworkManager-Qt), and
     <xref linkend="polkit-qt"/> (Authentication backend for KAuth)
