@@ -109,10 +109,10 @@
     <bridgehead renderas="sect4">Recommended</bridgehead>
     <para role="recommended">
       <xref linkend="alsa-lib"/>,
-      <xref linkend="make-ca"/>,
-      <xref linkend="cups"/>,
+<!--      <xref linkend="make-ca"/>,	-->
+<!--      <xref linkend="cups"/>,	-->
       <xref linkend="glib2"/>,
-      <xref linkend="gst10-plugins-base"/> (QtMultimedia backend),
+<!--      <xref linkend="gst10-plugins-base"/> (QtMultimedia backend),	-->
       <xref linkend="harfbuzz"/>,
       <xref linkend="icu"/>,
       <xref linkend="jasper"/>,
@@ -289,6 +289,9 @@ ln -sfnv qt-&qt5-version; /opt/qt5</userinput></screen>
             -nomake examples                          \
             -no-rpath                                 \
             -syslog                                   \
+            -gui                                      \
+            -release                                  \
+            -xcb-xlib                                 \
             -skip qtwebengine                         &amp;&amp;
 make</userinput></screen>
 
@@ -303,6 +306,9 @@ make</userinput></screen>
             -nomake examples                          \
             -no-rpath                                 \
             -journald                                 \
+            -gui                                      \
+            -release                                  \
+            -xcb-xlib                                 \
             -skip qtwebengine                         &amp;&amp;
 make</userinput></screen>
 
