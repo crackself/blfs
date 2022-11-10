@@ -75,7 +75,7 @@
     <bridgehead renderas="sect4">Required</bridgehead>
     <para role="required">
       <xref linkend="libatasmart"/>,
-      <xref linkend="libblockdev"/>,
+<!--      <xref linkend="libblockdev"/>,	-->
       <xref linkend="libgudev"/>,
       <xref linkend="libxslt"/>, and
       <xref linkend="polkit"/>
@@ -83,12 +83,12 @@
 
     <bridgehead renderas="sect4">Required at runtime</bridgehead>
     <para role="required">
-      <xref role="runtime" linkend="btrfs-progs"/>,
-      <phrase revision="sysv"><xref role="runtime" linkend="dbus"/>,</phrase>
-      <xref role="runtime" linkend="dosfstools"/>,
-      <xref role="runtime" linkend="gptfdisk"/>,
-      <xref role="runtime" linkend="mdadm"/>, and
-      <xref role="runtime" linkend="xfsprogs"/>
+<!--      <xref role="runtime" linkend="btrfs-progs"/>,		-->
+<!--      <phrase revision="sysv"><xref role="runtime" linkend="dbus"/>,</phrase>	-->
+<!--      <xref role="runtime" linkend="dosfstools"/>,	-->
+<!--      <xref role="runtime" linkend="gptfdisk"/>,	-->
+<!--      <xref role="runtime" linkend="mdadm"/>, and	-->
+<!--      <xref role="runtime" linkend="xfsprogs"/>	-->
     </para>
 
     <bridgehead renderas="sect4">Recommended</bridgehead>
