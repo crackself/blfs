@@ -114,7 +114,8 @@
     </para>
 
 <screen><userinput>cat &gt; font-&xorg-version;.md5 &lt;&lt; "EOF"
-<literal>&font-util-md5sum;  font-util-&font-util-version;.tar.xz</literal>
+<literal>&font-util-md5sum;  font-util-&font-util-version;.tar.xz
+&encodings-md5sum;  encodings-&encodings-version;.tar.xz</literal>
 EOF</userinput></screen>
 
     <para>

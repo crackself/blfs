@@ -211,10 +211,15 @@
 
 <screen><userinput>cat &gt; app-&xorg-version;.md5 &lt;&lt; "EOF"
 <literal>&iceauth-md5sum;  iceauth-&iceauth-version;.tar.xz
+&setxkbmap-md5sum;  setxkbmap-&setxkbmap-version;.tar.bz2
 &xauth-md5sum;  xauth-&xauth-version;.tar.xz
 &xbacklight-md5sum;  xbacklight-&xbacklight-version;.tar.bz2
+&xhost-md5sum;  xhost-&xhost-version;.tar.bz2
 &xkbcomp-md5sum;  xkbcomp-&xkbcomp-version;.tar.bz2
+&xprop-md5sum;  xprop-&xprop-version;.tar.bz2
+&xrandr-md5sum;  xrandr-&xrandr-version;.tar.bz2
 &xrdb-md5sum;  xrdb-&xrdb-version;.tar.bz2
+&xset-md5sum;  xset-&xset-version;.tar.xz
 </literal>
 EOF</userinput></screen>
 
