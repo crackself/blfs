@@ -211,6 +211,7 @@
 
 <screen><userinput>cat &gt; app-&xorg-version;.md5 &lt;&lt; "EOF"
 <literal>&iceauth-md5sum;  iceauth-&iceauth-version;.tar.xz
+&mkfontscale-md5sum;  mkfontscale-&mkfontscale-version;.tar.xz
 &setxkbmap-md5sum;  setxkbmap-&setxkbmap-version;.tar.bz2
 &xauth-md5sum;  xauth-&xauth-version;.tar.xz
 &xbacklight-md5sum;  xbacklight-&xbacklight-version;.tar.bz2
