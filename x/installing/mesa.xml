@@ -251,7 +251,7 @@ meson --prefix=$XORG_PREFIX   \
       -Dlibunwind=disabled    \
       -Dvulkan-drivers=intel  \
       -Dgles2=enabled	      \
-      ..                     && &amp;&amp;
+      ..                      &amp;&amp;
 
 ninja</userinput></screen>
 
